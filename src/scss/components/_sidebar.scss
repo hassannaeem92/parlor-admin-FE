@@ -1,0 +1,71 @@
+.sidebar-container {
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  height: 100vh;
+
+  &-bar {
+    background: $primary;
+    color: $white;
+    height: 100vh;
+    // width: 200px;
+    transition: all 0.5s;
+
+    &-top {
+      display: flex;
+      align-items: center;
+      // padding:20px 15px;
+
+      &-logo {
+        font-size: 35px;
+        font-family: "Barlow Semi Condensed", sans-serif;
+        font-weight: 700;
+      }
+
+      &-bar-icon {
+        display: flex;
+        font-size: 25px;
+        margin-left: 50px;
+      }
+    }
+
+    &-link {
+      display: flex;
+      color: #fff;
+      padding: 10px 15px;
+      gap: 15px;
+      transition: all 0.5s;
+
+      &:hover {
+        background: $secondary;
+        color: $primary;
+        transition: all 0.5s;
+      }
+
+      &-icon {
+        font-size: 25px;
+        font-weight: bold;
+      }
+      &-text {
+        font-size: 22px;
+        font-family: "Barlow Semi Condensed", sans-serif;
+        font-weight: 500;
+      }
+    }
+
+    &-active {
+      background: $secondary;
+      color: $primary;
+    }
+  }
+}
+
+.link {
+  @apply p-2.5 flex rounded-md gap-6 items-center md:cursor-pointer cursor-default duration-300 font-medium;
+}
+
+.active {
+  @apply bg-lightPrimary text-primary;
+}

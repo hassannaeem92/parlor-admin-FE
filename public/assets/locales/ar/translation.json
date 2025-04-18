@@ -1,0 +1,6 @@
+{
+    "welcome_to_react": "مرحبًا بك في React و react-i18next",
+    "header": "رأس",
+    "open_dialog": "أنت تفتح صندوق الحوار. اليوم هو {{date}}",
+    "show": "عرض"
+}

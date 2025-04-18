@@ -1,0 +1,6 @@
+{
+    "welcome_to_react": "Welcome to React and react-i18next",
+    "header": "Header",
+    "open_dialog": "You open the dialog box. Today is {{date}}",
+    "show": "Show"
+}

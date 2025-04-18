@@ -1,0 +1,4 @@
+export const SET_FAQS = "SET_FAQS";
+export const RESET_FAQS = "RESET_FAQS";
+export const SET_SPECIFIC_FAQS = "SET_SPECIFIC_FAQS";
+export const RESET_SPECIFIC_FAQS = "RESET_SPECIFIC_FAQS";

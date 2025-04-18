@@ -1,0 +1,39 @@
+@layer tailwind-base, primereact, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+// base
+@import "base/reset";
+@import "base/flag";
+
+// flag icons
+
+@import "/node_modules/flag-icons/css/flag-icons.min.css";
+
+//prime react
+//theme
+@import "primereact/resources/themes/md-light-indigo/theme.css";
+//core
+@import "primereact/resources/primereact.min.css";
+
+//icons
+@import "primeicons/primeicons.css";
+
+// react toastify
+
+@import "react-toastify/dist/ReactToastify.css";
+
+// abstracts
+@import "abstract/variables";
+@import "abstract/primeReactStyle";
+
+// components
+
+@import "components/sidebar";

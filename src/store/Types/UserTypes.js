@@ -1,0 +1,4 @@
+export const SET_USERS = "SET_USERS";
+export const RESET_USERS = "RESET_USERS";
+export const SET_SPECIFIC_USERS = "SET_SPECIFIC_USERS";
+export const RESET_SPECIFIC_USERS = "RESET_SPECIFIC_USERS";

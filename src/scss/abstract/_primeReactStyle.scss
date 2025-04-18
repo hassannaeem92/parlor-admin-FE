@@ -1,0 +1,136 @@
+.p-steps .p-steps-item.p-highlight .p-steps-number {
+  background-color: $primary;
+  color: $white;
+}
+
+.p-primary-btn {
+  background-color: $primary;
+  border-color: $primary;
+
+  &:hover {
+    background-color: darken($color: $primary, $amount: 10) !important;
+    border-color: darken($color: $primary, $amount: 10) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $primaryLight !important;
+  }
+}
+
+.p-secondary-btn {
+  background-color: $secondary;
+  border-color: $secondary;
+
+  &:hover {
+    background-color: darken($color: $secondary, $amount: 10) !important;
+    border-color: darken($color: $secondary, $amount: 10) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($color: $secondary, $amount: 50) !important;
+  }
+}
+.currency-btn {
+  background-color: green;
+  border-color: green;
+
+  &:hover {
+    background-color: darken($color: rgb(14, 233, 14), $amount: 10) !important;
+    border-color: darken($color: green, $amount: 10) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($color: green, $amount: 50) !important;
+  }
+}
+.p-grey-btn {
+  background-color: gray;
+  border-color: gray;
+
+  &:hover {
+    background-color: darken($color: gray, $amount: 10) !important;
+    border-color: darken($color: gray, $amount: 10) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($color: gray, $amount: 50) !important;
+  }
+}
+
+.p-black-btn {
+  background-color: $black;
+  border-color: $black;
+
+  &:hover {
+    background-color: darken($color: $black, $amount: 40) !important;
+    border-color: darken($color: $black, $amount: 40) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $lightBlack !important;
+  }
+}
+
+.p-primary-highlight-btn {
+  background-color: $primary;
+  border-color: $primary;
+
+  &:hover {
+    background-color: darken($color: $primary, $amount: 10) !important;
+    border-color: darken($color: $primary, $amount: 10) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $primaryLight !important;
+  }
+}
+
+.p-red-btn {
+  background-color: $sRed;
+  border-color: $sRed;
+
+  &:hover {
+    background-color: darken($color: $sRed, $amount: 10) !important;
+    border-color: darken($color: $sRed, $amount: 10) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($color: $sRed, $amount: 50) !important;
+  }
+}
+
+.p-primary-input {
+  &:hover {
+    border-color: darken($color: $primaryNormal, $amount: 10) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $primaryLight !important;
+  }
+}
+
+[dir="rtl"] .p-password i {
+  left: 3rem; /* Adjust the value as needed */
+  right: auto;
+}
+
+.p-breadcrumb {
+  padding: 0 !important;
+  background: inherit !important;
+  border: none !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.p-menu .p-menu-separator {
+  border-top: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+.profile-menu .p-menuitem-link {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+[data-pc-name="paginator"] {
+  justify-content: flex-end !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  background-color: #f8fafc !important;
+  [data-pc-name="dropdown"] {
+    width: 7rem !important;
+  }
+  [data-pc-section="left"] {
+    margin-right: auto !important;
+  }
+}

@@ -1,0 +1,4 @@
+export const SET_TERMS = "SET_TERMS";
+export const RESET_TERMS = "RESET_TERMS";
+export const SET_SPECIFIC_TERMS = "SET_SPECIFIC_TERMS";
+export const RESET_SPECIFIC_TERMS = "RESET_SPECIFIC_TERMS";
